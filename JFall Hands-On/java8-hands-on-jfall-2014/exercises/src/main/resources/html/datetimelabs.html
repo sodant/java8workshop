@@ -1,0 +1,27 @@
+<h3>J-Fall 2014: Hands-on with Java 8</h3>
+<hr/>
+<a href="index.html">index</a><h2>Lab: The new and improved DateTime API</h2><h2>Introduction</h2><p>In this lab we are going to explore the new Date Time API a bit more. This API has been significantly improved and has resemblance with Joda time.</p><p>In these exercises you will learn about the following API's:</p>
+<ul>
+  <li>DayOfWeek</li>
+  <li>LocalDate</li>
+  <li>Month</li>
+  <li>TemporalAdjusters</li>
+  <li>DayOfWeek</li>
+  <li>Period;</li>
+  <li>Year</li>
+</ul><p>Sources: <code>com.xebia.java8_6.datetime.DateTimeLabs</code><br/>Tests: <code>com.xebia.java8_6.datetime.DateTimeLabsTest</code></p><h2>Exercises</h2><h3>1. Implement calculateAge</h3><p>With the old API it was quite a challenge to calculate the age of someone. In this exercise we use the new API to given a birthday calculate the the age with the new Java 8 API for Date/Time, implement the <code>calculateAge</code> method.</p><h3>2. Implement calculateDayOfMonth</h3><p>Write an implementation for the method <code>calculateDayOfMonth</code> which calculates the nth occurrence of a day for a given month and year. For example the first Wednesday in November this year is 5 November.</p><h3>3. Implement createFederalHolidays</h3><p>Exercise 3 and 4 belong together first we start with determining the days of the month the federal holidays From Wikipedia we learn that:</p>
+<ul>
+  <li>January 1 (Fixed) := New Year's Day</li>
+  <li>Third Monday in January := Birthday of Martin Luther King, Jr.</li>
+  <li>Third Monday in February (Presidents' Day) := Washington's Birthday</li>
+  <li>Last Monday in May := Memorial Day</li>
+  <li>July 4 (Fixed) := Independence Day</li>
+  <li>First Monday in September := Labor Day</li>
+  <li>Second Monday in October := Columbus Day</li>
+  <li>November 11 (Fixed) := Veterans Day</li>
+  <li>Fourth Thursday in November := Thanksgiving Day</li>
+  <li>December 25 (Fixed) := Christmas</li>
+</ul><p>Some days are already implemented in the method <code>createFederalHolidays</code>, fill in the missing dates with the aid of the DateTime API.</p><h3>4. Implement countWorkingDays</h3><p>Implement the method <code>countWorkingDays</code> which will count the working days within a year, you filter based on weekdays and federal holidays which we implemented in the previous example.</p><br/>
+<br/>
+<hr/>
+Xebia 2014

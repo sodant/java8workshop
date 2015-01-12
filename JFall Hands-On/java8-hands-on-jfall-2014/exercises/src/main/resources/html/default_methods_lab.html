@@ -1,0 +1,6 @@
+<h3>J-Fall 2014: Hands-on with Java 8</h3>
+<hr/>
+<a href="index.html">index</a><h1>Lab: Default methods</h1><h2>Introduction</h2><p>In this exercise you learn to isolate common behavior in an interface with default methods. The class <code>ServiceWithTraditionalLogger</code> uses the <code>SimpleLogger</code> in an intrusive manner, directly referencing the logger implementation.</p><p>To complete this exercise you have to implement a reusable <code>Logggable</code> interface. The <code>Logggable</code> interface has to contain a <b>default method</b> info(String s), which can be called by the class that implements this interface.</p><p>The <code>Logggable</code> interface has to delegate the call to info(String s) to a corresponding <code>SimpleLogger</code> belonging to the class where this interface is implemented.</p><p>Consequently, the <code>ServiceWithDefaultMethodLogger</code> class can directly call logging methods (here only info) without the need to create its own logger.</p><p>Sources: <code>com.xebia.java8_5.defaultmethods.DefaultMethodsLabs</code><br/>Tests: <code>com.xebia.java8_5.defaultmethods.DefaultMethodsLabsTest</code></p><h2>Exercises</h2><p>Implement the method <code>info</code> in the class <code>Loggable</code> and pass all the test cases.</p><br/>
+<br/>
+<hr/>
+Xebia 2014
